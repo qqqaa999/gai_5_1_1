@@ -2,5 +2,5 @@ class HttpRespone:
     pass
 
 
-def hello_wolrd(request):
+def hello_world(request):
     return HttpRespone('hellooooo')
