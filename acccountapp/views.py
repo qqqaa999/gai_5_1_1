@@ -1,6 +1,5 @@
-class HttpRespone:
-    pass
+from django.shortcuts import render
 
 
 def hello_world(request):
-    return HttpRespone('hellooooo')
+    return render(request, 'acccountapp/hello_world.html')
