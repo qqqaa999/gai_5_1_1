@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    {% include 'header.html' %}
-</head>
-<body>
-{%  include 'head.html' %}
-{%  block content %}
-{% endblock %}
 
-{%  include 'footer.html' %}
-</body>
+    <head>
+        {% include 'head.html' %}
+    </head>
+
+    <body>
+    
+        {%  include 'header.html' %}
+        <hr>
+
+        {%  block content %}
+
+
+        {% endblock %}
+
+        <hr>
+
+        {%  include 'footer.html' %}
+
+    </body>
+
 </html>
