@@ -1,4 +1,4 @@
-"""dp_2 URL Configuration
+"""dp_1 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/',include('accountapp.urls')),
     path('profile',include('profileapp.urls')),
-    path('articles/', include('articleapp.urls')),
+    path('articles/',include('articleapp.urls')),
+    path('comments/', include('commentapp.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
