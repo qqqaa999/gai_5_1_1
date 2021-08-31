@@ -84,3 +84,6 @@ __pycache__/
 media/
 
 staticfiles/
+
+gis_5ban_gcp
+gis_5ban_gcp.pub
